@@ -8,7 +8,7 @@ import re
 
 # --- 1. 페이지 설정 및 세션 초기화 ---
 st.set_page_config(layout="wide", page_title="B787-9 Rotation (Final)")
-st.title("✈️ B787-9 Rotation Scheduler (Natural Sort + Order Fixed)")
+st.title("✈️ A/C Rotation Table")
 
 # 기준일
 BASE_DATE = datetime(2024, 1, 1)
